@@ -1,4 +1,4 @@
-// The world pixel by pixel 2016
+// The world pixel by pixel 2018
 // Daniel Rozin
 // Adjusting the brightness of an image
 // This example does not use the PXP methods which makes it slower but more readable

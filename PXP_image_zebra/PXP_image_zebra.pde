@@ -1,4 +1,4 @@
-// The world pixel by pixel 2016
+// The world pixel by pixel 2018
 // Daniel Rozin
 // create a B&W zebra effect
 // uses PXP methods for getting and setting pixel values fast

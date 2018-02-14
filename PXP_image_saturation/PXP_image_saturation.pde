@@ -1,4 +1,4 @@
-// The world pixel by pixel 2016
+// The world pixel by pixel 2018
 // Daniel Rozin
 // change an image's saturation
 // uses PXP methods for getting and setting pixel values fast
