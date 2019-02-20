@@ -1,4 +1,4 @@
-// The world pixel by pixel 2018
+// The world pixel by pixel 2019
 // Daniel Rozin
 // Adjusting the brightness of an image
 // This example does not use the PXP methods which makes it slower but more readable
@@ -7,7 +7,7 @@ PImage ourImage;
 void setup() {
   size(1024, 768);
   frameRate(120);
-  ourImage= loadImage("http://weknowyourdreamz.com/images/unicorn/unicorn-08.jpg");
+  ourImage= loadImage("https://res.cloudinary.com/teepublic/image/private/s--OrJcI8-v--/t_Preview/b_rgb:5e366e,c_limit,f_jpg,h_630,q_90,w_630/v1495920519/production/designs/1629044_1.jpg");
   ourImage.resize (width, height);                              // it makes things much easier to have the image the size of the window
   ourImage.loadPixels();                                         // load the pixels array of the image, we only have to do ths once
 }                                                                // because the image doesnt change

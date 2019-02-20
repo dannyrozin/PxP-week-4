@@ -1,4 +1,4 @@
-// The world pixel by pixel 2018
+// The world pixel by pixel 2019
 // Daniel Rozin
 // change an image's saturation
 // uses PXP methods for getting and setting pixel values fast
@@ -7,7 +7,7 @@ PImage ourImage;
 void setup() {
   size(1000, 800);
   frameRate(120);
-  ourImage= loadImage("http://dreamatico.com/data_images/flowers/flowers-4.jpg");
+  ourImage= loadImage("https://www.crestwoodflowers.net/gifs/index-flowers.jpg");
   ourImage.resize (width, height);
   ourImage.loadPixels();                          // load the pixels array of the image
 }

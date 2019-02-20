@@ -1,4 +1,4 @@
-// The world pixel by pixel 2018
+// The world pixel by pixel 2019
 // Daniel Rozin
 // methods for getting and setting pixel values fast
 int R, G, B, A;          // you must have these global varables to use the PxPGetPixel()
