@@ -1,4 +1,4 @@
-// The world pixel by pixel 2019
+// The world pixel by pixel 2020
 // Daniel Rozin
 // Adjusting the brightness of an image
 // This example does not use the PXP methods which makes it slower but more readable
@@ -24,9 +24,9 @@ void draw() {
       R=R+mouseX-width/2;                                              // changing R,G,B by adding the same number to all 3
       G=G+mouseX-width/2;                                              // which is changing the brightness of that pixel
       B=B+mouseX-width/2;
-      color newColor = color(R,G,B);
-    pixels[thisPixel]= newColor;
-  }
+      color newColor = color(R, G, B);
+      pixels[thisPixel]= newColor;
+    }
   }
   updatePixels();                                    //  must call updatePixels oce were done messing with pixels[]
   println (frameRate);
