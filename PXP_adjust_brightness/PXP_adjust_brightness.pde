@@ -1,4 +1,4 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
 // adjusting the brightness of an image
 // using PXP methods for getting and setting pixel values fast

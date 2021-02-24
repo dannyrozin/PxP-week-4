@@ -1,4 +1,4 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
 // PXP methods in an object called PxPixel
 PxPixel ourPxPixel= new PxPixel();
@@ -16,7 +16,7 @@ void draw() {
   // load the pixels array of the window 
   for (int x = 0; x<mouseX; x++) {                      // looping through all the pixels left of the mouse
     for (int y = 0; y<height; y++) {
-      ourPxPixel.getPixel(x, y, pixels, width);
+      ourPxPixel.getPixel(x, y, ourImage.pixels, width);
       int R=255-ourPxPixel.R;                                          // inverse the colors by subtracting from 255
       int G=255-ourPxPixel.G;
       int B=255-ourPxPixel.B;

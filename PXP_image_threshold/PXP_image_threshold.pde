@@ -1,4 +1,4 @@
-// The world pixel by pixel 2020
+// The world pixel by pixel 2021
 // Daniel Rozin
 // threshold an image's brightness
 // uses methods for getting and setting pixel values fast
