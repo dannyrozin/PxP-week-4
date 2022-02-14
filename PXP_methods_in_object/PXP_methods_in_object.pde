@@ -1,4 +1,4 @@
-// The world pixel by pixel 2021
+// The world pixel by pixel 2022
 // Daniel Rozin
 // PXP methods in an object called PxPixel
 PxPixel ourPxPixel= new PxPixel();

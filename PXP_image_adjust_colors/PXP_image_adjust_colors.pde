@@ -1,4 +1,4 @@
-// The world pixel by pixel 2021
+// The world pixel by pixel 2022
 // Daniel Rozin
 // adjusting colors of an image
 // uses PXP methods for getting and setting pixel values fast
